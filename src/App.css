@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+*{
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+body{
+  background-color: #1E1E1E;
+  margin-bottom: 2em;
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-title{
+  text-align: center;
+  color: #FF5600;
+}
+
+.newTask-container{
+  background-color: #1A1A1A;
+  border: 1px solid black;
+  width: 700px;
+  margin-top: 2.5em;
+}
+
+.newTask-container h4{
+  color: #FF5600;
+  margin-left: 1em;
+}
+
+.input-container{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+.input-time, .input-task{
+  background-color: #171717;
+  border: 1px solid black;
+  color: #ffffff;
+  height: 50px;
+}
+
+.input-time{
+  width: 70px;
+  text-align: center;
+  margin-left: -70px;
+  margin-right: 25px;
+}
+
+
+.input-task{
+  padding-left: 0.5em;
+  margin-left: -20px;
+}
+
+.add-btn{
+  width: 65px;
+  background-color: #FF6512;
+  color: black;
+  border: none;
+  border-radius: 30%;
+}
+
+.add-btn:hover{
+  cursor: pointer;
+  opacity: 90%;
+}
+
+.taskList-container{
+  background-color: #1A1A1A;
+  border: 1px solid black;
+  width: 700px;
+  height: 600px;
+  margin-top: 2.5em;
+  padding-top: 3em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.task-container{
+  background-color: #171717;
+  border: 1px solid black;
+  color: white;
+  width: 625px;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-time-container h4{
+  color: #ffffffe4;
+  margin-top: 0.75em;
+  margin-left: 1em;
+}
+
+.task-time-container h6{
+  margin-top: -2em;
+  margin-left: 1.5em;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.877);
+}
+
+.icone-container{
+  display: flex;
+  gap: 15px;
+  margin-right: 17px;
+  margin-top: 10px;
+}
+
+.icone-container img{
+  width: 36px;
+  height: 36px;
+}
+
+.icone-container img:hover{
+  cursor: pointer;
+}
+
+.icone-container input{
+  margin-top: 7.25px;
+  width: 25px;
+  height: 25px;
+  accent-color: #FF6512;
+  opacity: 10%;
+}
+
+.icone-container input:checked{
+  opacity: 100%;
+}
+
+.icone-container input:hover{
+  cursor: pointer;
+}
+
